@@ -14,7 +14,7 @@ def create_app(test_config=None):
         DATABASE=os.path.join(app.instance_path, 'flaskr.sqlite'),
     )
 
-    CORS(app, supports_credentials=True, resources={r"/*": {"origins": "https://to-do-it-flask.vercel.app/"}})
+    CORS(app, supports_credentials=True, resources={r"/*": {"origins": "http://localhost:3000"}})
 
     if test_config is None:
         # load the instance config, if it exists, when not testing
