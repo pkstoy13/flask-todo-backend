@@ -1,0 +1,30 @@
+[2024-10-22 03:50:31 +0000] [3752] [INFO] Starting gunicorn 23.0.0
+[2024-10-22 03:50:32 +0000] [3752] [INFO] Listening at: http://127.0.0.1:5000 (3752)
+[2024-10-22 03:50:32 +0000] [3752] [INFO] Using worker: sync
+[2024-10-22 03:50:32 +0000] [3753] [INFO] Booting worker with pid: 3753
+[2024-10-22 03:50:32 +0000] [3754] [INFO] Booting worker with pid: 3754
+[2024-10-22 03:50:32 +0000] [3755] [INFO] Booting worker with pid: 3755
+[2024-10-22 03:50:32 +0000] [3756] [INFO] Booting worker with pid: 3756
+[2024-10-22 03:50:48 +0000] [3752] [ERROR] Worker (pid:3756) was sent SIGHUP!
+[2024-10-22 03:50:48 +0000] [3752] [ERROR] Worker (pid:3754) was sent SIGHUP!
+[2024-10-22 03:50:48 +0000] [3752] [ERROR] Worker (pid:3755) was sent SIGHUP!
+[2024-10-22 03:50:48 +0000] [3752] [ERROR] Worker (pid:3753) was sent SIGHUP!
+[2024-10-22 03:50:48 +0000] [3757] [INFO] Booting worker with pid: 3757
+[2024-10-22 03:50:48 +0000] [3758] [INFO] Booting worker with pid: 3758
+[2024-10-22 03:50:48 +0000] [3752] [INFO] Handling signal: hup
+[2024-10-22 03:50:48 +0000] [3752] [INFO] Hang up: Master
+[2024-10-22 03:50:48 +0000] [3760] [INFO] Booting worker with pid: 3760
+[2024-10-22 03:50:48 +0000] [3759] [INFO] Booting worker with pid: 3759
+[2024-10-22 03:50:48 +0000] [3762] [INFO] Booting worker with pid: 3762
+[2024-10-22 03:50:48 +0000] [3757] [INFO] Worker exiting (pid: 3757)
+[2024-10-22 03:50:48 +0000] [3761] [INFO] Booting worker with pid: 3761
+[2024-10-22 03:50:48 +0000] [3758] [INFO] Worker exiting (pid: 3758)
+[2024-10-22 03:50:48 +0000] [3752] [ERROR] Worker (pid:3758) was sent SIGTERM!
+[2024-10-22 16:07:53 +0000] [3759] [INFO] Worker exiting (pid: 3759)
+[2024-10-22 16:07:53 +0000] [14636] [INFO] Booting worker with pid: 14636
+[2024-10-22 16:08:32 +0000] [3760] [INFO] Worker exiting (pid: 3760)
+[2024-10-22 16:08:32 +0000] [14639] [INFO] Booting worker with pid: 14639
+[2024-10-22 16:08:48 +0000] [3761] [INFO] Worker exiting (pid: 3761)
+[2024-10-22 16:08:48 +0000] [14642] [INFO] Booting worker with pid: 14642
+[2024-10-22 16:08:52 +0000] [3762] [INFO] Worker exiting (pid: 3762)
+[2024-10-22 16:08:52 +0000] [14643] [INFO] Booting worker with pid: 14643
