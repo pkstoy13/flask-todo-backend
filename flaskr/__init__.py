@@ -10,11 +10,11 @@ def create_app(test_config=None):
     # create and configure the app
     app = Flask(__name__, instance_relative_config=True)
     app.config.from_mapping(
-        SECRET_KEY='dev',
+        SECRET_KEY=os.getenv('SECRET_KEY'),
         DATABASE=os.path.join(app.instance_path, 'flaskr.sqlite'),
     )
 
-    CORS(app, supports_credentials=True, resources={r"/*": {"origins": "http://localhost:3000"}})
+    CORS(app, supports_credentials=True, resources={r"/*": {"origins": "https://to-do-it-flask.vercel.app/"}})
 
     if test_config is None:
         # load the instance config, if it exists, when not testing
